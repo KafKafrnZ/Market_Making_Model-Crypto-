@@ -1,0 +1,15 @@
+trading:
+  symbol: BTCUSDT
+  quantity: 0.01
+  max_inventory: 5.0
+
+model:
+  path: models/best_lstm_model.pth
+  sequence_length: 60
+
+risk:
+  max_drawdown: 0.1
+  kill_switch: true
+
+logging:
+  level: INFO

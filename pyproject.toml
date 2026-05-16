@@ -1,0 +1,18 @@
+[project]
+name = "market-maker-crypto"
+version = "0.2.0"
+description = "Enterprise-grade crypto market making bot"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "KafKafrnZ"}]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "ruff", "mypy"]
+ui = ["dash", "dash-bootstrap-components", "plotly"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
