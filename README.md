@@ -1,6 +1,6 @@
-# Market Making Bot - Crypto (Enterprise Edition)
+# Market making bot (prototype, 2025)
 
-Production-ready cryptocurrency market making bot with LSTM prediction, advanced risk management, and beautiful dashboard.
+This is a learning project from early 2025, not a live trading system. The later commit only adds a package skeleton. The dashboard described below was never built. Do not point real Binance keys at it.
 
 ## Features
 - Real-time Binance WebSocket data
